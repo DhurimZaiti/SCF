@@ -168,6 +168,59 @@
 
 
 
+
+    <section id="report" class="report section mt-5 shadow rounded-4 p-5">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Report People polluting the earth</h2>
+        <p>In the form bellow you can report if you see someone polluting the planet by throwing garbage in the roads and burning different kind of toxicns, or polluting the Earth in any kind of other way!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12">
+            <form action="forms/contact.php" method="post" class="php-email-form " data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2 fw-bold fs-5">What was the person doing?</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2 fw-bold fs-5">What time and date did u witness this?</label> <br>
+                  <input type="datetime-local" id="datetime" class='form-control ' name="datetime">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2 fw-bold fs-5">In which location did you witness this?</label>
+                  <input type="text" class="form-control" name="location" id="location-field" required="">
+                </div>
+
+                <div class="col-4 justify-content-center">
+                  <button type="submit" class="btn btn-darkgreen shadow" name="submit">Report Message</button>
+                </div>
+                  
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+      </section>
+
+
+
+
+
+
+
     <!-- Why Us Section -->
     <section id="why-us" class="section why-us" data-builder="section">
 

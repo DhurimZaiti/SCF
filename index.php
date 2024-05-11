@@ -75,44 +75,50 @@
 
 
         <div class="col-lg-7">
-          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <form action="addPlasticBottle.php" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
             <div class="row gy-4">
 
               <div class="col-md-6">
                 <label for="name-field" class="pb-2">Your Name</label>
-                <input type="text" name="name" id="name-field" class="form-control" required="">
+                <input type="text" name="name" id="name-field" class="form-control" required="required">
               </div>
 
               <div class="col-md-6">
                 <label for="email-field" class="pb-2">Your Email</label>
-                <input type="email" class="form-control" name="email" id="email-field" required="">
+                <input type="email" class="form-control" name="email" id="email-field" required="required">
               </div>
 
               <div class="col-md-12">
                 <label for="subject-field" class="pb-2">Small Bottles</label>
-                <input type="number" class="form-control" name="subject" id="subject-field" required="">
+                <input type="number" class="form-control" name="bottle_s" id="bottle-field" required="required">
               </div>
               <div class="col-md-12">
                 <label for="subject-field" class="pb-2">Medium Bottles</label>
-                <input type="number" class="form-control" name="subject" id="subject-field" required="">
+                <input type="number" class="form-control" name="bottle_m" id="bottle-field" required="required">
               </div>
               <div class="col-md-12">
                 <label for="subject-field" class="pb-2">Large Bottles</label>
-                <input type="number" class="form-control" name="subject" id="subject-field" required="">
+                <input type="number" class="form-control" name="bottle_l" id="bottle-field" required="required">
               </div>
 
 
               <div class="col-md-12 text-start ms-3">   
                 <label for="city" class="pb-2">City</label>
-                <input type="text" name="city" id="city-field" class="form-control" required="">
-              </div>
+                <select class="btn btn-secondary" required="required" name="city">
+										<option disabled="" selected="" value="">Select a City</option>
+										<option value="tetovo">Tetovo</option>
+										<option value="gostivar">Gostivar</option>
+										<option value="skopje">Skopje</option>
+									</select>              
+            </div>
 
              
-          </div>
-
-          <button class='btn btn-darkgreen mt-3'>Submit</button>
-
             </div>
+            
+
+            <button class='btn btn-darkgreen mt-3'>Submit</button>
+
+          </div>
           </form>
         </div><!-- End Contact Form -->
 

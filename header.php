@@ -10,29 +10,28 @@
       </a>
 
       <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.php" class="">Home</a></li>
-          <li><a href="index.php#about">About</a></li>
-          <li><a href="index.php#services">Services</a></li>
-          <li><a href="index.php#team">Team</a></li>
-          <li><a href="index.php#pricing">Pricing</a></li>
-          <li><a href="index.php#contact">Contact</a></li>
-        </ul>
-            <?php if(isset($_SESSION['is_admin'])){?>
-						<?php if($_SESSION['is_admin'] == 'true'){?>
-              <li class="dropdown"><a href="#"><span>Admin Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+    <ul>
+        <li><a href="index.php" class="">Home</a></li>
+        <li><a href="index.php#about">About</a></li>
+        <li><a href="index.php#services">Services</a></li>
+        <li><a href="index.php#team">Team</a></li>
+        <li><a href="index.php#pricing">Pricing</a></li>
+        <li><a href="index.php#contact">Contact</a></li>
+        <?php if(isset($_SESSION['is_admin']) && $_SESSION['is_admin'] == 'true'){ ?>
+        <li class="dropdown">
+            <a href="#"><span>Admin Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="dashboard.php">Dashboard</a></li>
-              <li><a href="contactDashboard.php">Contact Inquiries</a></li>
-              <li><a href="plasticBR.php">Plastic Bottle Requests</a></li>
-              <li><a href="glassBR.php">Glass Bottle Requests</a></li>
+                <li><a href="dashboard.php">Dashboard</a></li>
+                <li><a href="contactDashboard.php">Contact Inquiries</a></li>
+                <li><a href="plasticBR.php">Plastic Bottle Requests</a></li>
+                <li><a href="glassBR.php">Glass Bottle Requests</a></li>
             </ul>
-          </li>
-						<?php } ?>
-				   <?php } ?>
-				</ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+        </li>
+        <?php } ?>
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
+
 
 
         <!-- Log in & Sign Up -->

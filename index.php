@@ -102,23 +102,15 @@
               </div>
 
 
-              <div class="col-md-12">   
-              <label for="city-dropdown" class="pb-2">City</label>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="city-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      Select City
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="city-dropdown" style="max-height: 300px; overflow-y: auto;">
-                  <li><a class="dropdown-item" href="#">New York</a></li>
-                  <li><a class="dropdown-item" href="#">Los Angeles</a></li>
-                  <li><a class="dropdown-item" href="#">Chicago</a></li>
-                  <li><a class="dropdown-item" href="#">Houston</a></li>
-                  <li><a class="dropdown-item" href="#">Phoenix</a></li>
-            <!-- Add more cities here -->
-                </ul>
+              <div class="col-md-12 text-start ms-3">   
+                <label for="city" class="pb-2">City</label>
+                <input type="text" name="city" id="city-field" class="form-control" required="">
               </div>
+
+             
           </div>
 
+          <button class='btn btn-darkgreen mt-3'>Submit</button>
 
             </div>
           </form>

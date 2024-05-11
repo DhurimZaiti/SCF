@@ -74,7 +74,7 @@ include_once('header.php');
             </div>
         </div>
     </div>
-
+    
   <!-- Preloader -->
   <div id="preloader"></div>
 
@@ -90,5 +90,6 @@ include_once('header.php');
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 </html>

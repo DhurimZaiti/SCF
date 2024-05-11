@@ -34,48 +34,42 @@
 <?php 
 include_once('header.php');
 ?>
-    <div class="container mt-5">
-        <div class="row mt-5">
-            <div class="col-4 offset-4 mt-5">
-                <div class="form-signin mt-5">
-                    <form action="add.php" method="post">
-                        <h1 class="h2 mb-3 fw-bold">Sign Up</h1>
-                        <div class="form-floating mb-2">
-                            <input type="text" class="form-control" name="name" id="floatingInput" placeholder="Name">
-                            <label for="floatingInput">Name</label>
+   <body>
+    <div class="container mt-5 bg-light">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title text-center mb-4">Sign In</h1>
+                        <form action="add.php" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="confirm_password" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-darkgreen" name="submit">Sign In</button>
+                            </div>
+                        </form>
+                        <div class="text-center mt-3">
+                            <p>Already have an account? <a href="login.php">Sign In</a></p>
                         </div>
-
-                        <div class="form-floating mb-2">
-                            <input type="text" class="form-control" name="username" id="floatingInput" placeholder="Username">
-                            <label for="floatingInput">Username</label>
-                        </div>
-
-                        <div class="form-floating mb-2">
-                            <input type="email" class="form-control" name="email" id="floatingInput" placeholder="Email">
-                            <label for="floatingInput">Email</label>
-                        </div>
-
-                        <div class="form-floating mb-2">
-                            <input type="password" class="form-control" name="password" id="floatingInput" placeholder="Password">
-                            <label for="floatingInput">Password</label>
-                        </div>
-
-                        <div class="form-floating mb-2">
-                            <input type="password" class="form-control" name="confirm_password" id="floatingInput" placeholder="Confirm password">
-                            <label for="floatingInput">Confirm password</label>
-                        </div>
-
-                        <div class="checkbox mb-3 text-dark">
-                            <label for="">
-                                <input type="checkbox" value="remember-me" name="" id=""> Remember Me
-                            </label>
-                        </div>
-
-                        <button class="w-100 btn btn-lg btn-blue" type="submit" name="submit">Sign Up</button>
-                        <span>Already have an account: </span> <a href="login.php" class="btn btn-large btn-primary">Sign in</a>
-                    </form>
-
-
+                    </div>
                 </div>
             </div>
         </div>

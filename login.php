@@ -29,19 +29,18 @@
 
 
 </head>
+
 <body class="bg-light">
 
-<?php 
-include_once('header.php');
-?>
-   <body>
-    <div class="container mt-5 bg-light">
+<?php include_once('header.php'); ?>
+
+   <div class="container mt-5 bg-light">
         <div class="row">
             <div class="col-md-6 offset-md-3 mt-5">
                 <div class="card">
                     <div class="card-body">
                         <h1 class="card-title text-center mb-4">Login</h1>
-                        <form action="index.php" method="POST">
+                        <form action="loginLogic.php" method="POST">
                             <div class="mb-3">
                                 <label for="username" class="form-label">Username</label>
                                 <input type="text" class="form-control" id="username" name="username" required>
@@ -59,14 +58,14 @@ include_once('header.php');
                             </div>
                         </form>
                         <div class="text-center mt-3">
-                            <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
+                            <p>Don't have an account? <a href="signin.php">Sign Up</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
   <!-- Preloader -->
   <div id="preloader"></div>
 

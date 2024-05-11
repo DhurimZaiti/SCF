@@ -39,7 +39,7 @@ include_once('header.php');
             <div class="col-4 offset-4 mt-5">
                 <div class="form-signin mt-5">
                     <form action="add.php" method="post">
-                        <h1 class="h2 mb-3 fw-bold">Register</h1>
+                        <h1 class="h2 mb-3 fw-bold">Sign Up</h1>
                         <div class="form-floating mb-2">
                             <input type="text" class="form-control" name="name" id="floatingInput" placeholder="Name">
                             <label for="floatingInput">Name</label>
@@ -71,10 +71,10 @@ include_once('header.php');
                             </label>
                         </div>
 
-                        <span>Already have an account? </span> <a href="login.php" class="color-red fw-bold">Sign in</a>
+                        <span>Already have an account? </span> <a href="login.php" class="color-red fw-bold">Log In</a>
 
                     </form>
-                    <div id='signin' class="btn-lg btn btn-darkgreen rounded-3 text-center">Sign Up</div>
+                    <div class="btn-lg btn btn-darkgreen rounded-3 mt-5 text-center">Log In</div>
 
                 </div>
             </div>

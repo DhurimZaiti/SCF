@@ -20,19 +20,19 @@
 /* Global Colors */
 :root {
   /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
-  --background-color: #ffffff;
+  --background-color: #F5EFE6;
 
   /* Default Color - This is the default color used for the majority of the text content. */
-  --default-color: #444444;
+  --default-color: #1A4D2E;
 
   /* Heading Color - This color is used for titles, headings and secondary elements. */
-  --heading-color: #37517e;
+  --heading-color: #1A4D2E;
 
   /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
-  --accent-color: #47b2e4;
+  --accent-color: #4F6F52;
 
   /* Contrast Color - This is a color used for text when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors. */
-  --contrast-color: #ffffff;
+  --contrast-color: #F5EFE6;
 }
 
 /* Nav Menu Colors */

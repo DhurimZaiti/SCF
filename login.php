@@ -65,7 +65,7 @@ include_once('header.php');
 
                     
 
-                        <span>Don't have an account? </span> <a href="login.php" class="color-red fw-bold">Sign Up</a>
+                        <span>Don't have an account? </span> <a href="signin.php" class="color-red fw-bold">Sign Up</a>
 
                     </form>
                     <div id='signin' class="btn-lg btn btn-darkgreen rounded-3 text-center">Sign Up</div>

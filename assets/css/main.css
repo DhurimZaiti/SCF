@@ -43,7 +43,7 @@
   --nav-color: #F5EFE6;
 
   /* Nav Hover Color - This color is applied to main navmenu links when they are hovered over. */
-  --nav-hover-color: #47b2e4;
+  --nav-hover-color: #abdac6;
 
   /* Nav Dropdown Background Color - This color is used as the background for dropdown boxes that appear when hovering over primary navigation items. */
   --nav-dropdown-background-color: #F5EFE6;
@@ -901,6 +901,7 @@ section,
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background-color: #abdac6;
 }
 
 .hero .btn-watch-video {

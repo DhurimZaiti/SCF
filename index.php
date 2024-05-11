@@ -76,18 +76,17 @@
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              We are a humble non-profit organization that focuses on recycling and making the world a cleaner place. Our goals are:
             </p>
             <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>To clean up frequently trashed locations</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>To recycle as much glass as possible</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>To trade your plastic bottles for money</span></li>
             </ul>
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <p>We strive for people doing the right thing and cleaning up the world. We incetivise people to send us plastic and glass containers which are used and/or uneeded so we can recycle them for future use. We also are a zero-carbon operation which we proudly earned in 2021</p>
             <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
 

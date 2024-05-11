@@ -12,11 +12,11 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.php" class="">Home</a></li>
-          <li><a href="index.php">About</a></li>
-          <li><a href="index.php">Services</a></li>
-          <li><a href="#index.php">Team</a></li>
-          <li><a href="index.php">Pricing</a></li>
-          <li><a href="#index.php">Contact</a></li>
+          <li><a href="index.php#about">About</a></li>
+          <li><a href="index.php#services">Services</a></li>
+          <li><a href="index.php#team">Team</a></li>
+          <li><a href="index.php#pricing">Pricing</a></li>
+          <li><a href="index.php#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

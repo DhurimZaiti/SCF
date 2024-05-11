@@ -67,7 +67,7 @@ include_once('header.php');
                             </div>
                         </form>
                         <div class="text-center mt-3">
-                            <p>Already have an account? <a href="login.php">Sign In</a></p>
+                            <p>Already have an account? <a href="login.php">Log In</a></p>
                         </div>
                     </div>
                 </div>

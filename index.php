@@ -226,7 +226,7 @@
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-activity icon"></i></div>
               <h4><a href="service-details.html" class="stretched-link">Sell Plastic bottles!</a></h4>
-              <p>Sell your used plastic bottles</p>
+              <p>Selling plastic bottles provides an opportunity to promote recycling and contribute to environmental sustainability!</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -242,7 +242,7 @@
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
               <h4><a href="service-details.html" class="stretched-link">We recycle glass!</a></h4>
-              <p>Give us unded glass pieces!</p>
+              <p>Recycling glass conserves resources and reduces pollution by giving new life to used materials!</p>
             </div>
           </div><!-- End Service Item -->
 

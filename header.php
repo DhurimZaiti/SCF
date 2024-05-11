@@ -11,17 +11,17 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.php" class="">Home</a></li>
+          <li><a href="index.php">About</a></li>
+          <li><a href="index.php">Services</a></li>
+          <li><a href="#index.php">Team</a></li>
+          <li><a href="index.php">Pricing</a></li>
+          <li><a href="#index.php">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="signin.php">Get Started</a>
 
     </div>
   </header>

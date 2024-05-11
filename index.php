@@ -46,15 +46,14 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 class="">Better Solutions For Your Business</h1>
-            <p class="">We are team of talented designers making websites with Bootstrap</p>
+            <h1 class="">Make earth a better place</h1>
+            <p class="">Let's nurture our Earth's beauty with mindful actions, like cherishing every leaf, recycling every ray of sunlight, and weaving a tapestry of sustainability for generations to come.</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <a href="signin.php" class="btn-get-started">Get Started</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            <img src="assets/img/ecology.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>

@@ -17,6 +17,8 @@
   --nav-font: "Poppins", sans-serif;
 }
 
+
+
 /* Global Colors */
 :root {
   /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
@@ -56,6 +58,16 @@
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
+}
+.btn-darkgreen {
+  background-color: #1A4D2E !important;
+  color: white !important;
+
+}
+
+.btn-darkgreen:hover {
+  background-color: #4F6F52 !important;
+  color: white !important;
 }
 
 /*--------------------------------------------------------------

@@ -116,7 +116,7 @@
             </div>
             
 
-            <button class='btn btn-darkgreen mt-3'>Submit</button>
+            <button type="submit" class="btn btn-darkgreen" name="submit">Send Request</button>
 
           </div>
           </form>
@@ -164,6 +164,9 @@
       </div>
 
     </section><!-- /About Section -->
+
+
+
 
     <!-- Why Us Section -->
     <section id="why-us" class="section why-us" data-builder="section">

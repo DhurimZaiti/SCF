@@ -71,10 +71,10 @@ include_once('header.php');
                             </label>
                         </div>
 
-                        <span>Already have an account? </span> <a href="login.php" class="color-red fw-bold">Log In</a>
-
+                        <button class="w-100 btn btn-lg btn-blue" type="submit" name="submit">Sign Up</button>
+                        <span>Already have an account: </span> <a href="login.php" class="btn btn-large btn-primary">Sign in</a>
                     </form>
-                    <div class="btn-lg btn btn-darkgreen rounded-3 mt-5 text-center">Log In</div>
+
 
                 </div>
             </div>

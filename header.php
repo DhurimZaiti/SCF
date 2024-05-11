@@ -17,7 +17,7 @@
         <li><a href="index.php#team">Team</a></li>
         <li><a href="index.php#pricing">Pricing</a></li>
         <li><a href="index.php#contact">Contact</a></li>
-        <?php if(isset($_SESSION['is_admin']) && $_SESSION['is_admin'] == 'true'){ ?>
+        <?php if($_SESSION['is_admin'] == 'true'){ ?>
         <li class="dropdown">
             <a href="#"><span>Admin Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>

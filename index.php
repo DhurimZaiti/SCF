@@ -60,7 +60,78 @@
 
     </section><!-- /Hero Section -->
 
-   
+
+    <section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Sell Your Bottles</h2>
+      <p>Sell used plastic bottles and earn money!</p>
+    </div><!-- End Section Title -->
+
+    <div class="container justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row gy-4">
+
+
+        <div class="col-lg-7">
+          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <label for="name-field" class="pb-2">Your Name</label>
+                <input type="text" name="name" id="name-field" class="form-control" required="">
+              </div>
+
+              <div class="col-md-6">
+                <label for="email-field" class="pb-2">Your Email</label>
+                <input type="email" class="form-control" name="email" id="email-field" required="">
+              </div>
+
+              <div class="col-md-12">
+                <label for="subject-field" class="pb-2">Small Bottles</label>
+                <input type="number" class="form-control" name="subject" id="subject-field" required="">
+              </div>
+              <div class="col-md-12">
+                <label for="subject-field" class="pb-2">Medium Bottles</label>
+                <input type="number" class="form-control" name="subject" id="subject-field" required="">
+              </div>
+              <div class="col-md-12">
+                <label for="subject-field" class="pb-2">Large Bottles</label>
+                <input type="number" class="form-control" name="subject" id="subject-field" required="">
+              </div>
+
+
+              <div class="col-md-12">   
+              <label for="city-dropdown" class="pb-2">City</label>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="city-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select City
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="city-dropdown" style="max-height: 300px; overflow-y: auto;">
+                  <li><a class="dropdown-item" href="#">New York</a></li>
+                  <li><a class="dropdown-item" href="#">Los Angeles</a></li>
+                  <li><a class="dropdown-item" href="#">Chicago</a></li>
+                  <li><a class="dropdown-item" href="#">Houston</a></li>
+                  <li><a class="dropdown-item" href="#">Phoenix</a></li>
+            <!-- Add more cities here -->
+                </ul>
+              </div>
+          </div>
+
+
+            </div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+
+    </div>
+
+    </section>    
+
+
+
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -389,7 +460,7 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item">
-              <h3>Big bottles (2l)</h3>
+              <h3>Large bottles (2l)</h3>
               <h4><sup>$</sup>1<span> / per bottle</span></h4>
               <ul>
                 <li><i class="bi bi-check"></i> <span>Keep the environmet clean</span></li>

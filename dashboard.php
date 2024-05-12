@@ -61,33 +61,27 @@
   </div>
   <?php if($_SESSION['is_admin'] == 'true') { ?>
     <div class="container">
-      <h2 class="text-center mb-3">Users</h2>
-      <div class="container">
-      <div class="row mb-3 text-center">
-
-        <div class="col-3">
-        <a href="index.php" class='btn btn-darkgreen'>Go Home</a>
-        </div>    
-        <div class="col-3">
-        <a href="dashboard.php" class='btn btn-darkgreen'>Dashboard</a>
-        </div>    
-        <div class="col-3">
-          <a href="contactDashboard.php" class='btn btn-darkgreen'>Contact Inquiries</a>
-        </div>    
-        <div class="col-3">
-          <a href="plasticBottleDash.php" class='btn btn-darkgreen'>Plastic Bottle Requests</a>
-        </div>  
-      </div>
-      <div class="row mb-3 text-center">
-
-        <div class="col-6">
-        <a href="glassBottleDash.php" class='btn btn-darkgreen'>Glass Bottle Requests</a>
-        </div>    
-        <div class="col-6">
-        <a href="reportDash.php" class='btn btn-darkgreen'>Reports</a>
-        </div>    
-        </div>  
-    </div> 
+            <h2 class="mb-3 text-center">Inquiries</h2>
+            <div class="row mb-3 text-center">
+                <div class="col text-center">
+                    <a href="index.php" class='btn btn-darkgreen'>Go Home</a>
+                </div>    
+                <div class="col">
+                    <a href="dashboard.php" class='btn btn-darkgreen'>Dashboard</a>
+                </div>    
+                <div class="col">
+                    <a href="contactDashboard.php" class='btn btn-darkgreen'>Contact Inquiries</a>
+                </div>    
+                <div class="col">
+                    <a href="plasticBottleDash.php" class='btn btn-darkgreen'>Plastic Bottle Requests</a>
+                </div>  
+                <div class="col">
+                    <a href="glassBottleDash.php" class='btn btn-darkgreen'>Glass Bottle Requests</a>
+                </div>    
+                <div class="col">
+                    <a href="reportDash.php" class='btn btn-darkgreen'>Reports</a>
+                </div>    
+            </div>
         
 
       </div>

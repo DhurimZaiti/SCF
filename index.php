@@ -266,9 +266,9 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class=""><span class="">Eum ipsam laborum deleniti </span><strong>velit pariatur architecto aut nihil</strong></h3>
+              <h3 class=""><span class="">Why Us?</span></h3>
               <p class="">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              Why you should choose us?
               </p>
             </div>
 
@@ -276,25 +276,25 @@
 
               <div class="faq-item faq-active">
 
-                <h3><span>01</span> Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3><span>01</span> Why Us?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>Choose EarthTrade for convenient bottle selling and a commitment to planet protection. Sell your plastic and glass bottles securely while also reporting pollution. Join us in safeguarding our environment, one bottle at a time.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span>02</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                <h3><span>02</span> What you will earn from us?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Cashing in with EarthTrade is easy and rewarding. For every bottle you sell on our platform, you earn money. It's that simple. Not only are you helping the environment by recycling, but you're also putting some extra cash in your pocket with each sale. Join our community today and start turning your bottles into cash while making a positive impact on the planet.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span>03</span> Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3><span>03</span> What we will use the money for?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>At EarthTrade, we believe in the power of every bottle sold to make a positive impact. That's why a portion of your earnings from selling bottles on our platform goes towards planting trees. Trees are vital for our planet, contributing to cleaner air, wildlife habitats, and combating climate change. By choosing us, you're not only earning money but also actively participating in environmental conservation efforts. Together, let's grow a brighter future, one bottle at a time.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -304,7 +304,7 @@
           </div>
 
           <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/whyus.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
           </div>
         </div>
 
@@ -517,6 +517,8 @@
 
         <div class="row gy-4">
 
+        
+
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item">
               <h3>Small bottles (0.5l)</h3>
@@ -551,6 +553,61 @@
             <div class="pricing-item">
               <h3>Large bottles (2l)</h3>
               <h4><sup>$</sup>1<span> / per bottle</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Keep the environmet clean</span></li>
+                <li><i class="bi bi-check"></i> <span>Stop killing turtles</span></li>
+                <li><i class="bi bi-check"></i> <span>Sell ur bottles and earn</span></li>
+                <li><i class="bi bi-check"></i> <span>There is no planet B</span></li>
+
+              </ul>
+              <a href="index.php#selling" class="buy-btn">Sell Now</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="row gy-4 mt-5">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Glass Bottles Pricing</h2>
+        </div><!-- End Section Title -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Small bottles (0.5l)</h3>
+              <h4><sup>$</sup>0.75<span> / per bottle</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Keep the environmet clean</span></li>
+                <li><i class="bi bi-check"></i> <span>Stop killing turtles</span></li>
+                <li><i class="bi bi-check"></i> <span>Sell ur bottles and earn</span></li>
+                <li><i class="bi bi-check"></i> <span>There is no planet B</span></li>
+
+              </ul>
+              <a href="index.php#selling" class="buy-btn">Sell Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Medium bottles (1l)</h3>
+              <h4><sup>$</sup>1<span> / per bottle</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Keep the environmet clean</span></li>
+                <li><i class="bi bi-check"></i> <span>Stop killing turtles</span></li>
+                <li><i class="bi bi-check"></i> <span>Sell ur bottles and earn</span></li>
+                <li><i class="bi bi-check"></i> <span>There is no planet B</span></li>
+
+              </ul>
+              <a href="index.php#selling" class="buy-btn">Sell Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Large bottles (2l)</h3>
+              <h4><sup>$</sup>2<span> / per bottle</span></h4>
               <ul>
                 <li><i class="bi bi-check"></i> <span>Keep the environmet clean</span></li>
                 <li><i class="bi bi-check"></i> <span>Stop killing turtles</span></li>

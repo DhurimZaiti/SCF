@@ -12,7 +12,9 @@
       <nav id="navmenu" class="navmenu">
     <ul>
         <li><a href="index.php" class="">Home</a></li>
+        <li><a href="index.php#selling">Sell</a></li>
         <li><a href="index.php#about">About</a></li>
+        <li><a href="index.php#report">Report</a></li>
         <li><a href="index.php#services">Services</a></li>
         <li><a href="index.php#team">Team</a></li>
         <li><a href="index.php#pricing">Pricing</a></li>

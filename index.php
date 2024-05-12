@@ -64,63 +64,56 @@
     <section id="contact" class="contact section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Sell Your Bottles</h2>
-      <p>Sell used plastic bottles and earn money!</p>
-    </div><!-- End Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+  <h2>Sell Your Bottles</h2>
+  <p>Sell used plastic bottles and earn money!</p>
+  </div>
 
-    <div class="container justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="container justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <form action="addPlasticBottle.php" class="php-email-form" method="post">
 
-      <div class="row gy-4">
-
-
-        <div class="col-lg-7">
-          <form action="addPlasticBottle.php" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-4">
-
-              <div class="col-md-6">
-                <label for="name-field" class="pb-2">Your Name</label>
-                <input type="text" name="name" id="name-field" class="form-control" required="required">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                <input type="text" class="form-control" name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                <input type="text" class="form-control" name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
               </div>
 
-              <div class="col-md-6">
-                <label for="email-field" class="pb-2">Your Email</label>
-                <input type="email" class="form-control" name="email" id="email-field" required="required">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Small Bottles</span>
+                <input type="number" class="form-control" name="bottle_s" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
               </div>
 
-              <div class="col-md-12">
-                <label for="subject-field" class="pb-2">Small Bottles</label>
-                <input type="number" class="form-control" name="bottle_s" id="bottle-field" required="required">
-              </div>
-              <div class="col-md-12">
-                <label for="subject-field" class="pb-2">Medium Bottles</label>
-                <input type="number" class="form-control" name="bottle_m" id="bottle-field" required="required">
-              </div>
-              <div class="col-md-12">
-                <label for="subject-field" class="pb-2">Large Bottles</label>
-                <input type="number" class="form-control" name="bottle_l" id="bottle-field" required="required">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Medium Bottles</span>
+                <input type="number" class="form-control" name="bottle_m" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
               </div>
 
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Large Bottles</span>
+                <input type="number" class="form-control" name="bottle_l" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
 
-              <div class="col-md-12 text-start ms-3">   
-                <label for="city" class="pb-2">City</label>
-                <select class="btn btn-secondary" required="required" name="city">
-										<option disabled="" selected="" value="">Select a City</option>
-										<option value="tetovo">Tetovo</option>
-										<option value="gostivar">Gostivar</option>
-										<option value="skopje">Skopje</option>
-									</select>              
+              <div class="form-floating mb-3">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>City</option>
+                  <option value="skopje">Skopje</option>
+                  <option value="tetovo">Tetovo</option>
+                  <option value="gostivar">Gostivar</option>
+                </select>
+                <label for="floatingSelect">Please Select your</label>
+              </div>
+
+              <button name="submit" type="submit" class="btn btn-darkgreen">Submit Your Request</button>
+              </form>
             </div>
-
-             
-            </div>
-            
-
-            <button type="submit" class="btn btn-darkgreen" name="submit">Send Request</button>
-
           </div>
-          </form>
-        </div><!-- End Contact Form -->
+        </div>
 
       </div>
 
@@ -655,22 +648,22 @@
 
                 <div class="col-md-6">
                   <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                  <input type="text" name="contact_name" id="name-field" class="form-control" required="">
                 </div>
 
                 <div class="col-md-6">
                   <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                  <input type="email" class="form-control" name="contact_email" id="email-field" required="">
                 </div>
 
                 <div class="col-md-12">
                   <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                  <input type="text" class="form-control" name="contact_subject" id="subject-field" required="">
                 </div>
 
                 <div class="col-md-12">
                   <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                  <textarea class="form-control" name="contact_message" rows="10" id="message-field" required=""></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">

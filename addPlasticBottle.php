@@ -4,7 +4,7 @@
 <?php
 
 include_once('config.php');
-include_once('emailFunctions.php');
+include_once('emailFunctionPB.php');
 
 if(isset($_POST['submit'])) {
     $name = $_POST['name'];
@@ -39,7 +39,7 @@ if(isset($_POST['submit'])) {
     $priceCalculationSent = sendPriceCalculationEmail($email, $totalPrice, $date);
 
     // Redirect to confirmation page
-    header("Location: confReqPB.php");
+    //header("Location: confReqPB.php");
     exit;
 }
 

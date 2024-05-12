@@ -100,7 +100,7 @@
               </div>
 
               <div class="form-floating mb-3">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <select class="form-select" id="floatingSelect" name="city" aria-label="Floating label select example">
                   <option selected>City</option>
                   <option value="skopje">Skopje</option>
                   <option value="tetovo">Tetovo</option>

@@ -19,6 +19,7 @@ if(isset($_POST['submit'])) {
 
 
     $insertSql->execute();
-    header("Location: index.php");
+    header("Location: redirectContact.php");
+    // add redirect page
 }
 ?>

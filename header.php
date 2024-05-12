@@ -31,8 +31,9 @@ session_start();
                 <ul>
                     <li><a href="dashboard.php">Dashboard</a></li>
                     <li><a href="contactDashboard.php">Contact Inquiries</a></li>
-                    <li><a href="plasticBR.php">Plastic Bottle Requests</a></li>
-                    <li><a href="glassBR.php">Glass Bottle Requests</a></li>
+                    <li><a href="plasticBottleDash.php">Plastic Bottle Requests</a></li>
+                    <li><a href="glassBottleDash.php">Glass Bottle Requests</a></li>
+                    <li><a href="reportDash.php">Reports</a></li>
                 </ul>
             </li>
           <?php } ?>

@@ -63,63 +63,105 @@
 
     <section id="selling" class="contact section">
 
-    <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
   <h2>Sell Your Bottles</h2>
-  <p>Sell used plastic bottles and earn money!</p>
-  </div>
+  <p>Sell used plastic and glass bottles and earn money!</p>
+</div>
 
-        <div class="container justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-              <form action="addPlasticBottle.php" class="php-email-form" method="post">
+<div class="container justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+  <div class="row">
+    <!-- Plastic Bottles -->
+    <div class="col-lg-6">
+      <h2 class="text-center mb-2" >Sell your plastic bottles here!</h2>
+      <form action="addPlasticBottle.php" class="php-email-form" method="post">
 
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
-                <input type="text" class="form-control" name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-              
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-                <input type="text" class="form-control" name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Small Bottles</span>
-                <input type="number" class="form-control" name="bottle_s" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Medium Bottles</span>
-                <input type="number" class="form-control" name="bottle_m" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Large Bottles</span>
-                <input type="number" class="form-control" name="bottle_l" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-
-              <div class="form-floating mb-3">
-                <select class="form-select" id="floatingSelect" name="city" aria-label="Floating label select example">
-                  <option selected>City</option>
-                  <option value="skopje">Skopje</option>
-                  <option value="tetovo">Tetovo</option>
-                  <option value="gostivar">Gostivar</option>
-                </select>
-                <label for="floatingSelect">Please Select your</label>
-              </div>
-
-              <button name="submit" type="submit" class="btn btn-darkgreen">Submit Your Request</button>
-              </form>
-            </div>
-          </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+          <input type="text" class="form-control" name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
 
-      </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+          <input type="text" class="form-control" name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
 
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Small Bottles</span>
+          <input type="number" class="form-control" name="bottle_s" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Medium Bottles</span>
+          <input type="number" class="form-control" name="bottle_m" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Large Bottles</span>
+          <input type="number" class="form-control" name="bottle_l" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="form-floating mb-3">
+          <select class="form-select" id="floatingSelect" name="city" aria-label="Floating label select example">
+            <option selected>City</option>
+            <option value="skopje">Skopje</option>
+            <option value="tetovo">Tetovo</option>
+            <option value="gostivar">Gostivar</option>
+          </select>
+          <label for="floatingSelect">Please Select your City</label>
+        </div>
+
+        <button name="submit" type="submit" class="btn btn-darkgreen">Submit Your Request</button>
+      </form>
     </div>
+    <!-- Glass Bottles -->
+    <div class="col-lg-6">
+      <h2 class="text-center mb-2" >Sell your glass bottles here!</h2>
+      <form action="addGlassBottle.php" class="php-email-form" method="post">
 
-    </section>    
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+          <input type="text" class="form-control" name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+          <input type="text" class="form-control" name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Small Bottles</span>
+          <input type="number" class="form-control" name="bottle_s" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Medium Bottles</span>
+          <input type="number" class="form-control" name="bottle_m" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Large Bottles</span>
+          <input type="number" class="form-control" name="bottle_l" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="form-floating mb-3">
+          <select class="form-select" id="floatingSelect" name="city" aria-label="Floating label select example">
+            <option selected>City</option>
+            <option value="skopje">Skopje</option>
+            <option value="tetovo">Tetovo</option>
+            <option value="gostivar">Gostivar</option>
+          </select>
+          <label for="floatingSelect">Please Select your City</label>
+        </div>
+
+        <button name="submit" type="submit" class="btn btn-darkgreen">Submit Your Request</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</section>
+
 
 
 
@@ -175,7 +217,7 @@
         <div class="row gy-4">
 
           <div class="col-lg-12">
-            <form action="forms/contact.php" method="post" class="php-email-form " data-aos="fade-up" data-aos-delay="200">
+            <form action="addReport.php" method="post" class="php-email-form " data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-12">

@@ -14,13 +14,13 @@ if(isset($_POST['submit'])) {
     $city = $_POST['city'];
 
     // Calculate total price
-    $totalPrice = ($bottle_s * 0.5) + ($bottle_m * 0.75) + ($bottle_l * 1);
+    $totalPrice = ($bottle_s * 0.75) + ($bottle_m * 1) + ($bottle_l * 1.25);
 
     // Date one week from now
     $date = date('Y-m-d', strtotime('+1 week'));
 
     // Insert data into the database
-    $sql = "INSERT INTO plastic_bottle (name, email, bottle_s, bottle_m, bottle_l, city, total_price, meetup_date) VALUES (:name, :email, :bottle_s, :bottle_m, :bottle_l, :city, :total_price, :meetup_date)";
+    $sql = "INSERT INTO glass_bottle (name, email, bottle_s, bottle_m, bottle_l, city, total_price, meetup_date) VALUES (:name, :email, :bottle_s, :bottle_m, :bottle_l, :city, :total_price, :meetup_date)";
     $insertSql = $conn->prepare($sql);
     $insertSql->bindParam(':name', $name);
     $insertSql->bindParam(':email', $email);
@@ -35,7 +35,7 @@ if(isset($_POST['submit'])) {
 
 
     // Redirect to confirmation page
-    header("Location: redirectPB.php");
+    header("Location: redirectGB.php");
     exit;
 }
 

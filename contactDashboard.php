@@ -74,33 +74,47 @@
           <a href="contactDashboard.php" class='btn btn-darkgreen'>Contact Inquiries</a>
         </div>    
         <div class="col-3">
-          <a href="plasticBR.php" class='btn btn-darkgreen'>Plastic Bottle Requests</a>
-      </div>  
+          <a href="plasticBottleDash.php" class='btn btn-darkgreen'>Plastic Bottle Requests</a>
+        </div>  
       </div>
-      <table class="table table-striped table-sm">
-        <thead>
-          <tr class="text-center" >
-            <th>Id</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Subject</th>
-            <th>Message</th>
+      <div class="row mb-3 text-center">
 
-          </tr>
-        </thead>
-        <tbody>
-          <?php foreach ($contact_data as $contact) { ?>
-            <tr class="text-dark text"> 
-              <td><strong> <?php echo $contact['contact_id']; ?>      </strong></td>
-              <td><strong> <?php echo $contact['contact_name']; ?>    </strong></td>
-              <td><strong> <?php echo $contact['contact_email']; ?>   </strong></td>
-              <td><strong> <?php echo $contact['contact_subject']; ?> </strong></td>
-              <td><strong> <?php echo $contact['contact_message']; ?> </strong></td>
+        <div class="col-6">
+        <a href="glassBottleDash.php" class='btn btn-darkgreen'>Glass Bottle Requests</a>
+        </div>    
+        <div class="col-6">
+        <a href="reportDash.php" class='btn btn-darkgreen'>Reports</a>
+        </div>    
+        </div>  
+    </div>
+    <div class="container">
+      <table class="table table-striped table-sm">
+          <thead>
+            <tr class="text-center" >
+              <th>Id</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Subject</th>
+              <th>Message</th>
 
             </tr>
-          <?php } ?>
-        </tbody>
+          </thead>
+          <tbody>
+            <?php foreach ($contact_data as $contact) { ?>
+              <tr class="text-dark text"> 
+                <td><strong> <?php echo $contact['contact_id']; ?>      </strong></td>
+                <td><strong> <?php echo $contact['contact_name']; ?>    </strong></td>
+                <td><strong> <?php echo $contact['contact_email']; ?>   </strong></td>
+                <td><strong> <?php echo $contact['contact_subject']; ?> </strong></td>
+                <td><strong> <?php echo $contact['contact_message']; ?> </strong></td>
+
+              </tr>
+            <?php } ?>
+          </tbody>
       </table>
+
+    </div>
+      
 
     </div>
 

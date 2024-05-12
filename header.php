@@ -1,5 +1,10 @@
-<body class="index-page">
+<?php
 
+session_start();
+
+?>
+
+<body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
@@ -17,16 +22,18 @@
         <li><a href="index.php#team">Team</a></li>
         <li><a href="index.php#pricing">Pricing</a></li>
         <li><a href="index.php#contact">Contact</a></li>
-        <?php if(isset($_SESSION['is_admin']) && $_SESSION['is_admin'] == 'true'){ ?>
-        <li class="dropdown">
-            <a href="#"><span>Admin Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-                <li><a href="dashboard.php">Dashboard</a></li>
-                <li><a href="contactDashboard.php">Contact Inquiries</a></li>
-                <li><a href="plasticBR.php">Plastic Bottle Requests</a></li>
-                <li><a href="glassBR.php">Glass Bottle Requests</a></li>
-            </ul>
-        </li>
+        <?php if(isset($_SESSION['is_admin'])){ ?>
+          <?php if( $_SESSION['is_admin'] == 'true'){?>
+            <li class="dropdown">
+                <a href="#"><span>Admin Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li><a href="dashboard.php">Dashboard</a></li>
+                    <li><a href="contactDashboard.php">Contact Inquiries</a></li>
+                    <li><a href="plasticBR.php">Plastic Bottle Requests</a></li>
+                    <li><a href="glassBR.php">Glass Bottle Requests</a></li>
+                </ul>
+            </li>
+          <?php } ?>
         <?php } ?>
     </ul>
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

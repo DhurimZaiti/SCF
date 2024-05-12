@@ -15,7 +15,7 @@ if(isset($_POST['login']))
     }
     else {
         // Prepare SQL statement to retrieve user data based on username
-        $sql = "SELECT id, username, password FROM users WHERE username=:username";
+        $sql = "SELECT id, username, password, is_admin FROM users WHERE username=:username";
         $stmt = $conn->prepare($sql);
         $stmt->bindParam(":username", $username);
         $stmt->execute();
@@ -26,6 +26,7 @@ if(isset($_POST['login']))
             // Set session variables
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
+            $_SESSION['is_admin'] = $user['is_admin'];
             
             // Redirect user to home page or dashboard
             header('Location: index.php');

@@ -14,7 +14,7 @@ if(isset($_POST['submit'])) {
     $city = $_POST['city'];
 
     // Calculate total price
-    $totalPrice = ($bottle_s * 0.75) + ($bottle_m * 1) + ($bottle_l * 1.25);
+    $totalPrice = ($bottle_s * 0.75) + ($bottle_m * 1) + ($bottle_l * 2);
 
     // Date one week from now
     $date = date('Y-m-d', strtotime('+1 week'));

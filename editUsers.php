@@ -40,10 +40,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
-	
-<?php
-include_once('header.php');
-?>
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-4 offset-4 mt-5">
@@ -75,7 +72,7 @@ include_once('header.php');
                             <label for="floatingInput">Email</label>
                         </div>
 
-                        <button class="w-100 btn btn-lg btn-blue" type="submit" name="submit">Change</button>
+                        <button class="w-100 btn btn-lg btn-darkgreen" type="submit" name="submit">Change</button>
 
                     </form>
                 </div>
@@ -83,20 +80,6 @@ include_once('header.php');
         </div>
     </div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -23,10 +23,10 @@
   <title>EARTHTRADE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="favicon-32x32.png" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">

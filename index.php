@@ -9,8 +9,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="favicon-32x32.png" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -73,36 +73,36 @@
   <div class="row">
     <!-- Plastic Bottles -->
     <div class="col-lg-6">
-      <h2 class="text-center mb-2" >Sell your plastic bottles here!</h2>
+      <h2 class="text-center mb-2">Sell your plastic bottles here!</h2>
       <form action="addPlasticBottle.php" class="php-email-form" method="post">
 
         <div class="input-group mb-3">
           <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
-          <input type="text" class="form-control" name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="text" class="form-control  " name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
 
         <div class="input-group mb-3">
           <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-          <input type="text" class="form-control" name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="text" class="form-control  " name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
 
         <div class="input-group mb-3">
           <span class="input-group-text" id="inputGroup-sizing-default">Small Bottles</span>
-          <input type="number" class="form-control" name="bottle_s" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="number" class="form-control  " name="bottle_s" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
 
         <div class="input-group mb-3">
           <span class="input-group-text" id="inputGroup-sizing-default">Medium Bottles</span>
-          <input type="number" class="form-control" name="bottle_m" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="number" class="form-control  " name="bottle_m" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
 
         <div class="input-group mb-3">
           <span class="input-group-text" id="inputGroup-sizing-default">Large Bottles</span>
-          <input type="number" class="form-control" name="bottle_l" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="number" class="form-control  " name="bottle_l" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
 
         <div class="form-floating mb-3">
-          <select class="form-select" id="floatingSelect" name="city" aria-label="Floating label select example">
+          <select class="form-select  " id="floatingSelect" name="city" aria-label="Floating label select example">
             <option selected>City</option>
             <option value="skopje">Skopje</option>
             <option value="tetovo">Tetovo</option>
@@ -116,7 +116,7 @@
     </div>
     <!-- Glass Bottles -->
     <div class="col-lg-6">
-      <h2 class="text-center mb-2" >Sell your glass bottles here!</h2>
+      <h2 class="text-center mb-2">Sell your glass bottles here!</h2>
       <form action="addGlassBottle.php" class="php-email-form" method="post">
 
         <div class="input-group mb-3">
@@ -333,7 +333,7 @@
             <div class="skills-content skills-animation">
 
               <div class="progress">
-                <span class="skill"><span>Collecting plastic from the ocean!</span> <i class="val">70%%</i></span>
+                <span class="skill"><span>Collecting plastic from the ocean!</span> <i class="val">70%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -354,7 +354,7 @@
               </div><!-- End Skills Item -->
 
               <div class="progress">
-                <span class="skill"><span>Collecting Glass!</span> <i class="val">45%</i></span>
+                <span class="skill"><span>Recycling Glass!</span> <i class="val">45%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
